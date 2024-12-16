@@ -8,6 +8,9 @@ public class Main {
 
         Menu menu = new Menu();
         menu.ajouterPizza(new PizzaMarguerita(400));
+        menu.ajouterPizza(new PizzaFromages(400));
+        menu.ajouterPizza(new PizzaFromages(450));
+        menu.ajouterPizza(new PizzaCochon(300));
 
         System.out.println(restaurant);
         System.out.println(menu);
